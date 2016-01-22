@@ -89,5 +89,6 @@ int main(int argc, char **argv) {
 	while (r_it != res.begin())	
 		assert(*(--r_it) == *(--d_it));
 
+	assert(0);
 	return 0;	
 }
