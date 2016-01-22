@@ -1,0 +1,9 @@
+
+language: cpp
+
+compiler: gcc
+
+install:
+    
+script:
+    - make -j4
